@@ -1,0 +1,303 @@
+:root {
+    --sky-blue: #2196F3;
+    --black: #212121;
+    --light-black: #2F303A;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box
+} */
+
+body {
+    font-family: var(--primary-font);
+    color: var(--grey);
+}
+
+/* Header section */
+.header:hover .header__navigation a:hover {
+    color: #2196F3;
+}
+
+.header .containter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header__logo__web {
+
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: var(--sky-blue);
+
+
+}
+
+a {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+.header__navigation ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header__navigation a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+
+}
+
+.header__navigation b {
+    color: #2196F3;
+}
+
+button {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 22px;
+    margin: 0 8px;
+
+
+}
+
+.selection {
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+
+}
+
+button.service {
+
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 19px;
+    border: 0;
+    border-radius: 5px;
+}
+
+button.service:hover {
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: #2196F3
+}
+
+button:focus {
+    background-color: grey;
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.header__info a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+
+.style__title {
+    color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.first-section {
+    text-align: center;
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+/* Strong section points */
+.what-we-do {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--black);
+}
+
+.what-we-do__image {
+    width: 370px;
+    height: 294px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.strong__section {
+
+    display: flex;
+}
+
+.strong__section__title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-top: 94px;
+}
+
+.strong__section__text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 30px;
+    margin-bottom: 94px;
+
+}
+
+.our-team {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    color: var(--black);
+}
+
+
+/* Conteiner project realizate */
+
+.containter {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.card__title {
+    color: var(--black);
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card__subtitle {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+
+/* Conteiner team */
+
+.conteiner__staff {
+    width: 270px;
+    height: 260px;
+    margin-bottom: 94px;
+    display: inline-block;
+
+}
+
+.conteiner__name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.conteiner__roll {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.conteiner__portofolio {
+    display: inline-block;
+    margin-right: 19px;
+
+
+}
+
+/* Footer section */
+
+.footer {
+    padding: 60px;
+    background-color: #2F303A;
+    margin-top: 94px;
+}
+
+.footer__logoweb {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: var(--sky-blue)
+}
+
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
